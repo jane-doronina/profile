@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240,240,240);
+  font-family: 'Jost', sans-serif;
+  color: rgb(30,30,30);
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03rem;
+  cursor: url("images/cursor.png"), default;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fffffc;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+h3 {
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+.heading-background {
+  background-color: rgb(30,30,30);
+  padding: 5px 10px;
+}
+
+.round-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 100%;
+  background-color: #fffffc;
+  padding: 5% 5%;
+  margin-bottom: 2%;
+  border-left: 5px solid rgb(30,30,30);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.inline-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.inline-list li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+a {
+  color:rgb(4, 55, 242);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(30,30,30);
+  cursor: url("images/blue-cursor.png"), default;
+}
+
+i {
+  font-size: 2rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 0.07rem;
+  color: rgb(4, 55, 242);
+  border: 2px solid rgb(4, 55, 242);
+  padding: 8px 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  border: 2px solid rgb(30,30,30);
+  color: rgb(30,30,30);
+  cursor: url("images/blue-cursor.png"), default;
+}
+
+.text-block {
+  width: 70%;
+  margin: 5% auto;
+}
+
+.cursive {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(30,30,30);
+}
+
+.cursive:hover {
+  color:rgb(4, 55, 242);
+  cursor: url("images/blue-cursor.png"), default;
+}
+
+.blue-text {
+  color:rgb(4, 55, 242)
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 960px) {
+  .container {
+    width: 70%;
+  }
+  .text-block {
+    width: 80%;
+    margin: 5% auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 90%;
+  }
+  .text-block {
+    width: 90%;
+    margin: 10% auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 96%;
+  }
+}
